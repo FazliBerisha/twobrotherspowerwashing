@@ -15,14 +15,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Two Brothers Power Washing - Professional Cleaning Services",
   description: "Professional power washing and cleaning services. Transform your property with our expert residential and commercial cleaning solutions.",
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/logo.png", type: "image/png" },
-    ],
-    shortcut: "/favicon.ico",
-    apple: "/logo.png",
-  },
 };
 
 export default function RootLayout({

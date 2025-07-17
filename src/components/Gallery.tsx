@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -59,9 +60,11 @@ export default function Gallery() {
             <div key={project.id} className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="flex">
                 <div className="flex-1 relative">
-                  <img 
+                  <Image 
                     src={project.before} 
                     alt={`${project.title} - Before`}
+                    width={300}
+                    height={192}
                     className="w-full h-48 object-cover cursor-pointer"
                     onClick={() => setSelectedImage(project.before)}
                   />
@@ -70,9 +73,11 @@ export default function Gallery() {
                   </div>
                 </div>
                 <div className="flex-1 relative">
-                  <img 
+                  <Image 
                     src={project.after} 
                     alt={`${project.title} - After`}
+                    width={300}
+                    height={192}
                     className="w-full h-48 object-cover cursor-pointer"
                     onClick={() => setSelectedImage(project.after)}
                   />
@@ -94,9 +99,11 @@ export default function Gallery() {
       {selectedImage && (
         <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4" onClick={() => setSelectedImage(null)}>
           <div className="relative max-w-4xl max-h-full">
-            <img 
+            <Image 
               src={selectedImage} 
               alt="Enlarged view"
+              width={800}
+              height={600}
               className="max-w-full max-h-full object-contain"
             />
             <button 

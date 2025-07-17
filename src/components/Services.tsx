@@ -96,11 +96,6 @@ export default function Services() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <a href="#contact" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-block">
-            Get Custom Quote
-          </a>
-        </div>
       </div>
     </section>
   );

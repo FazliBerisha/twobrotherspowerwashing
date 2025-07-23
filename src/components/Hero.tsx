@@ -2,12 +2,12 @@ export default function Hero() {
   return (
     <>
       {/* Header Image Section */}
-      <section id="home" className="relative h-96 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "url('/Header .jpg')"}}>
+      <section id="home" className="relative h-[32rem] bg-cover bg-center bg-no-repeat" style={{backgroundImage: "url('/Header .jpg')"}}>
         {/* Dark overlay for better text readability */}
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         
         {/* Content */}
-        <div className="relative z-10 container mx-auto px-4 py-16 h-96 flex items-center">
+        <div className="relative z-10 container mx-auto px-4 py-18 h-[32rem] flex items-center">
           <div className="max-w-4xl mx-auto text-center text-white">
             <h1 className="text-3xl md:text-4xl font-bold mb-4 drop-shadow-lg">Professional Powerwashing Services</h1>
             <p className="text-lg md:text-xl drop-shadow-md">Transform your property with our expert cleaning services</p>

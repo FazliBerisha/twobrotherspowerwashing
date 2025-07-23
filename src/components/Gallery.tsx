@@ -16,27 +16,34 @@ export default function Gallery() {
     },
     {
       id: 2,
+      before: "/Backyard Patio Before.jpg",
+      after: "/Backyard Patio After.jpg",
+      title: "Backyard Patio Transformation",
+      description: "Outdoor space restored to its original pristine condition"
+    },
+    {
+      id: 3,
       before: "/Front Patio Before.jpg",
       after: "/Front Patio After.jpg",
       title: "Front Entrance Patio",
       description: "Professional cleaning restored original beauty"
     },
     {
-      id: 3,
+      id: 4,
       before: "/Stone Railing Before.jpg",
       after: "/Stone Railing After.jpg",
       title: "Stone Railing Cleaning",
       description: "Years of dirt and stains completely removed"
     },
     {
-      id: 4,
+      id: 5,
       before: "/Stone Stairs Before.jpg",
       after: "/Stone Stairs After.jpg",
       title: "Stone Stairway Revival",
       description: "Deep cleaning brought these stairs back to life"
     },
     {
-      id: 5,
+      id: 6,
       before: "/Stone Wall Before.jpg",
       after: "/Stone Wall After.jpg",
       title: "Stone Wall Restoration",
